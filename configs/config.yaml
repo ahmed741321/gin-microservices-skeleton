@@ -1,0 +1,14 @@
+application_name: gin-microservices-app
+server:
+  port: 8080
+database:
+  host: localhost
+  port: 5432
+  user: your_username
+  password: your_password
+  name: your_database_name
+log_level: info
+jwt:
+  secret: your_jwt_secret
+  expiration: 24h
+```
